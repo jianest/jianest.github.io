@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f044a3;
+  background: #a6ff9f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2942,6 +2942,29 @@ blockquote,
 .posts-expand .post {
   margin-top: 40px;
 }
+.fa {
+  font-size: 14px;
+  color: #555;
+}
+.logo-line-before {
+  margin-left: -20px;
+}
+.logo-line-after {
+  margin-right: -20px;
+}
+.site-meta .site-title {
+  line-height: 45px;
+}
+.menu .menu-item a {
+  font-size: 15px;
+}
+.site-subtitle {
+  display: block;
+  color: #999;
+}
+.page-post-detail .comments {
+  border: 1px solid #d3d3d3;
+}
 @media (max-width: 767px) {
   .post-body img {
     width: 100%;
@@ -2952,7 +2975,7 @@ blockquote,
   }
   .site-meta {
     background: none;
-    margin-left: 50px;
+    margin-left: 60px;
   }
   .site-subtitle {
     display: block;
@@ -2960,5 +2983,30 @@ blockquote,
   }
   .menu .menu-item {
     padding: 5px;
+  }
+  .posts-expand .post-title {
+    text-align: left;
+    font-size: 18px;
+  }
+  .posts-expand .post-comments-count,
+  .post-meta-item-text {
+    display: inline-block;
+  }
+  .logo-line-before,
+  .logo-line-after {
+    display: block;
+    width: 50%;
+  }
+  .logo-line-before {
+    margin-left: 30px;
+  }
+  .logo-line-after {
+    margin-right: 30px;
+  }
+  .site-meta .site-title {
+    line-height: 45px;
+  }
+  .menu .menu-item a {
+    font-size: 15px;
   }
 }
